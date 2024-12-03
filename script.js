@@ -1,5 +1,5 @@
 let input = document.getElementById('inputbox');
-let buttons = document.querySelectorAll('button');  // Fixed selector
+let buttons = document.querySelectorAll('button');  
 
 let string = "";
 
@@ -19,7 +19,7 @@ arr.forEach(button => {
          input.value = string;
       } 
       else {
-         string += e.target.innerHTML;  // Append clicked button value
+         string += e.target.innerHTML;  
          input.value = string;
       }
    });
